@@ -39,7 +39,7 @@ public class ExtendReportDemo {
         report.setSystemInfo("Environment","Production");
         report.setSystemInfo("Browser", ConfigurationReader.get("browser"));
         report.setSystemInfo("OS",System.getProperty("os.name"));
-        report.setSystemInfo("Test Engineer","FT");
+        report.setSystemInfo("Test Engineer","Eywas");
     }
 
     @Test
